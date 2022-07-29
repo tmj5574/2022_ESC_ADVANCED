@@ -1,0 +1,55 @@
+Question 1
+In Kotlin, SAM stands for:
+
+▢ Safe Argument Matching
+
+▢ Simple Access Method
+
+▢ Single Abstract Method
+
+▢ Strategic Access Methodology
+
+풀이
+3번. SAM = 단일 추상 메소드
+
+Question 2
+Which one of the following is not a Kotlin Standard Library extension function?
+
+▢ elvis()
+
+▢ apply()
+
+▢ run()
+
+▢ with()
+
+풀이
+1번. 코틀린 표준 라이브러리 에는 with(),run(),apply()등이 있다.
+
+Question 3
+Which one of the following is not true of lambdas in Kotlin?
+
+▢ Lambdas are anonymous functions.
+
+▢ Lambdas are objects unless inlined.
+
+▢ Lambdas are resource intensive and shouldn't be used.
+
+▢ Lambdas can be passed to other functions.
+
+풀이
+3번.
+
+Question 4
+Labels in Kotlin are indicated with an identifier followed by:
+
+▢ :
+
+▢ ::
+
+▢ @:
+
+▢ @
+
+풀이
+4번. 레이블은 @를 사용하여 표시한다.

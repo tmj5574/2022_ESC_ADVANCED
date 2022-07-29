@@ -1,0 +1,48 @@
+질문 1
+문자열 이 호출된 문자열에 포함되어 있으면 contains(element: String)함수가 반환 됩니다 . 다음 코드의 출력은 무엇입니까?trueelement
+
+val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+
+println(decorations.filter {it.contains('p')})
+
+▢[pagoda, plastic, plant]
+
+▢[pagoda, plastic plant]
+
+▢[pagoda, plastic plant, flowerpot]
+
+▢[rock, alligator]
+
+풀이
+3번.
+contains에 의해 p가 포함된 단어만 출력이 되므로 pagoda, plastic plant, flowerpot 이 출력된다.
+
+질문 2
+다음 함수 정의에서 필요한 매개변수는 무엇입니까?
+fun shouldChangeWater (day: String, temperature: Int = 22, dirty: Int = 20, numDecorations: Int = 0): Boolean {...}
+
+▢numDecorations
+
+▢dirty
+
+▢day
+
+▢temperature
+
+풀이
+다른 매개변수들은 인자가 주어지지 않았을때 설정할 수 있는 기본값이 있지만 day는 그렇지 않기 때문에 필요하다.
+
+질문 3
+You can pass a regular named function (not the result of calling it) to another function.
+How would you pass increaseDirty( start: Int ) = start + 1 to updateDirty(dirty: Int, operation: (Int) -> Int)?
+
+▢ updateDirty(15, &increaseDirty())
+
+▢ updateDirty(15, increaseDirty())
+
+▢ updateDirty(15, ("increaseDirty()"))
+
+▢ updateDirty(15, ::increaseDirty)
+
+풀이
+4번. 고차함수에서 함수를 인자로 줄때는 ::increaseDirty가 맞다

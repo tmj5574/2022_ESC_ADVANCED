@@ -1,0 +1,70 @@
+Question 1
+Classes have a special method that serves as a blueprint for creating objects of that class. What is the method called?
+
+▢ A builder
+
+▢ An instantiator
+
+▢ A constructor
+
+▢ A blueprint
+
+풀이
+3번. 객체를 생성하기 위해서는 생성자가 필요하다
+
+Question 2
+Which of the following statements about interfaces and abstract classes is NOT correct?
+
+▢ Abstract classes can have constructors.
+
+▢ Interfaces can't have constructors.
+
+▢ Interfaces and abstract classes can be instantiated directly.
+
+▢ Abstract properties must be implemented by subclasses of the abstract class.
+
+풀이
+3번. 인터페이스와 추상클래스는 직접 인스턴스화 될 수 없다
+
+Question 3
+Which of the following is NOT a Kotlin visibility modifier for properties, methods, etc.?
+
+▢ internal
+
+▢ nosubclass
+
+▢ protected
+
+▢ private
+
+풀이
+2번. 코틀린의 수정자에는 internal, public, protected, private 가 있다.
+
+Question 4
+Consider this data class: data class Fish(val name: String, val species:String, val colors:String)
+Which of the following is NOT valid code to create and destructure a Fish object?
+
+▢ val (name1, species1, colors1) = Fish("Pat", "Plecostomus", "gold")
+
+▢ val (name2, _, colors2) = Fish("Bitey", "shark", "gray")
+
+▢ val (name3, species3, _) = Fish("Amy", "angelfish", "blue and black stripes")
+
+▢ val (name4, species4, colors4) = Fish("Harry", "halibut")
+
+풀이
+4번. 인자의 개수가 매개변수의 개수와 일치하지 않기 때문이다.
+
+Let's say you own a zoo with lots of animals that all need to be taken care of.
+Which of the following would NOT be part of implementing caretaking?
+
+▢ An interface for different types of foods animals eat.
+
+▢ An abstract Caretaker class from which you can create different types of caretakers.
+
+▢ An interface for giving clean water to an animal.
+
+▢ A data class for an entry in a feeding schedule.
+
+풀이
+4번.

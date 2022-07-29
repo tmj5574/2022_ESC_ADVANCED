@@ -1,0 +1,45 @@
+Question 1
+Which one of the following returns a copy of a list?
+
+▢ add()
+
+▢ remove()
+
+▢ reversed()
+
+▢ contains()
+
+풀이
+3번. add()는 리스트에 요소를 추가하고 remove()는 리스트의 요소를 삭제한다.
+그리고 contains는 리스트가 해당 요소를 포함하고 있는지에 대한 부울 값을 리턴한다.
+reversed()는 리스트의 요소를 역순으로 복사한다.
+
+Question 2
+Which one of these extension functions on
+class AquariumPlant(val color: String, val size: Int, private val cost: Double, val leafy: Boolean)
+will give a compiler error?
+
+▢ fun AquariumPlant.isRed() = color == "red"
+
+▢ fun AquariumPlant.isBig() = size > 45
+
+▢ fun AquariumPlant.isExpensive() = cost > 10.00
+
+▢ fun AquariumPlant.isNotLeafy() = leafy == false
+
+풀이
+3번. 확장함수는 private 변수에 접근하지 못하기 때무니다.
+
+Question 3
+Which one of the following is not a place where you can define constants with const val?
+
+▢ at the top level of a file
+
+▢ in regular classes
+
+▢ in singleton objects
+
+▢ in companion objects
+
+풀이
+2번. const val은 최상위파일이나 싱글톤 객체, 컴패니언 객체에서 선언이 가능하다.
